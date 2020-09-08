@@ -43,32 +43,46 @@ Shopping List
 
 Arduino Mega ($38):  
 https://www.amazon.com/dp/B0046AMGW0/ref=cm_sw_em_r_mt_dp_JXTvFb2R2KDRK
+
 Arduino Mega shield($12):
 https://www.amazon.com/dp/B00UYO4VWA/ref=cm_sw_em_r_mt_dp_yYTvFbYCPX2B9
+
 Adafruit 3.5" TFT touchscreen HXD8357D 320x480 ($40 digi-key)
 https://www.adafruit.com/product/2050 
+
 HX711 amplifier ($6):
 https://www.amazon.com/dp/B010FG9RXO/ref=cm_sw_em_r_mt_dp_IITvFbDPTNS30
+
 (2) SPDT three way toggle switches ($12):
 https://www.amazon.com/dp/B07PDQN6P8/ref=cm_sw_em_r_mt_dp_WDTvFbDR72Z4J
+
 (2) Momentary push button switches ($8)
 https://www.amazon.com/dp/B01G821G92/ref=cm_sw_em_r_mt_dp_MHTvFbE78DQX2
+
 Three color large LED ($1)
 https://www.amazon.com/dp/B01CI6EWHK/ref=cm_sw_em_r_mt_dp_v0TvFb9VB34HS
+
 (3) 330 ohm resistors ($3): 
 https://www.amazon.com/dp/B072L4B7W7/ref=cm_sw_em_r_mt_dp_a2TvFbS55HZT7
+
 Battery 7.4v Lipo($20): 
 https://www.amazon.com/dp/B07NRM7HFZ/ref=cm_sw_em_r_mt_dp_X2TvFbKQR6PXH
+
 Battery switch ($4): 
 https://www.amazon.com/dp/B008UTX208/ref=cm_sw_em_r_mt_dp_H3TvFb511478D
+
 Pressure Transducer ($20): 
 https://www.ebay.com/itm/UNIVERSAL-5V-PRESSURE-TRANSDUCER-SENDER-1600-PSI-OIL-FUEL-AIR-WATER-W-CONNECTOR/223214955490
+
 Load Cell ($30): 
 https://www.amazon.com/dp/B07RL2D2JQ/ref=cm_sw_em_r_mt_dp_WeUvFb94D6PFH
+
 White ammo box ($10):
 https://www.amazon.com/dp/B07M5VB1G5/ref=cm_sw_em_r_mt_dp_pbUvFbMNRBB08
+
 30 ft of Cat6 cable ($16): 
 https://www.amazon.com/dp/B07KX26QWJ/ref=cm_sw_em_r_mt_dp_QfUvFbZE87JDV
+
 Battery volt display ($9.00): 
 https://www.amazon.com/dp/B078LVLHNF/ref=cm_sw_em_r_mt_dp_LiUvFbRPHSXNG
 
@@ -93,7 +107,7 @@ SumXX.txt – summary of the test results in plain text
 Config.txt (values must be on exact line numbers with <cr> at end) – note you can call the function CreateConfigFile() in the Arduino code to write a new file from scratch. If no file exists it will use the defaults in the global declarations. 
 
 File Format:
-* Pressure enabled (1 or Y)
+ * Pressure enabled (1 or Y)
  * Load enabled (1 or Y)
  * Sample interval (ms)
  * Pressure sensor base value (integer)
