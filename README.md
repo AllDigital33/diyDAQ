@@ -1,5 +1,6 @@
 # diyDAQ
 An Arduino data acquisition box for pressure and load testing amateur rocket motors
+https://vimeo.com/455659313/4fd35c881f
 
 
 Overview
