@@ -12,6 +12,9 @@ You should have a basic knowledge of how to code and load libraries in Arduino a
 
 This version samples at a rate of about 85 Hz. It is limited by the Load Test amplifier, so if you only use pressure you can get much faster sampling. We’ve found that 85 samples a second is fine for our needs and it gives us a very accurate profile of the burn with very small anomalies and events showing up in the raw data. You can choose to only test pressure, load, or both. One or the other is usually enough to characterize the motor, but having both side-by-side gives you a lot more information about your motor. 
 
+
+
+
 Functionality
 
 The DAQ has three modes set by a toggle switch:  1) monitor mode 2) sample mode 3) review mode.  
@@ -23,6 +26,9 @@ In Sample mode, you start sampling by pressing the select button. This will put 
 Switching to Review Mode, allows you to scroll through the last five tests to see summary data, a pressure graph, and a load graph. While in Review mode, the second toggle switch allows you to move between summary, pressure graph, and load graph. 
 
 All of the settings for the DAQ are stored on a file (config.txt) on the SD card. This allows for easy changes without having to open up and recompile Arduino code. This includes turning on/off load or pressure, calibration settings for the pressure sensor and load cell, as well as all the timings and thresholds. 
+
+
+
 
 Equipment and Libraries
 
@@ -37,6 +43,9 @@ For the pressure sensor, we are just using a cheap three wire 1/8” NPT sensor 
 The other components are all pretty standard switches, push buttons, or LEDs. We use a 7.4v Lipo battery, but you could use a few standard 9v batteries in parallel (we did that on our first build). We added a volt meter read-out to our box to monitor the battery voltage. 
 
 We extend the sensors 30 feet from the box using Cat6 ethernet cable. The pressure sensor runs the whole length back to the Arduino analog input, but the HX711 for the load sensor is on the “business end” of the 30 foot cable to minimize noise during testing. If you are testing smaller motors you don’t need that much cable. On earlier versions we used RJ45 connectors on each end for the cable, but we found that during large tests they jiggled loose, so no we cut the cable and soldered on both ends. 
+
+
+
 
 
 Shopping List
@@ -101,6 +110,11 @@ Here is the Grease gun info for calibrating/testing the pressure guage (McMaster
 4443K722	High-Pressure 316 Stainless Steel Pipe Fitting, Plug with External Hex Drive 50785K61	High-Pressure Brass Pipe Fitting, Bushing Adapter with Hex Body, 1/4 Male x 1/8 
 
 48805K571	Precision Extreme-Pressure 316 Stainless Steel Fitting, Right-Angle Tee Adapter, 
+
+
+
+
+
 
 
 SD Card Files
