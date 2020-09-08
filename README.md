@@ -91,19 +91,28 @@ Note:  This is about $200+ in supplies, but if you get generics or lower cost co
 Here is the Grease gun info for calibrating/testing the pressure guage (McMaster-Carr Order):
 
 1060K52	Compact Pistol-Grip Grease Gun for Standard Fitting, 6" Long Nozzle (21.53)
+
 4089K64	Single Scale Pressure Gauge with Plastic Case, 1/4 NPT Male ($12.17)
+
 4112T23	Compact High-Pressure Brass Ball Valve with Lever Handle ($12.18)
+
 45525K552	High-Pressure 304 Stainless Steel Pipe Fitting, Cross Connector ($28.50)
+
 4443K722	High-Pressure 316 Stainless Steel Pipe Fitting, Plug with External Hex Drive 50785K61	High-Pressure Brass Pipe Fitting, Bushing Adapter with Hex Body, 1/4 Male x 1/8 
+
 48805K571	Precision Extreme-Pressure 316 Stainless Steel Fitting, Right-Angle Tee Adapter, 
 
 
 SD Card Files
 
 preXX.txt – presample raw data (milliseconds, analog pin pressure value, load cell value (lbs)) 
+
 MainXX.txt – main sample raw data (milliseconds, analog pin pressure value, load cell value (lbs))
+
 PostXX.txt – post sample raw data (milliseconds, analog pin pressure value, load cell value (lbs))
+
 SumXX.txt – summary of the test results in plain text
+
 Config.txt (values must be on exact line numbers with <cr> at end) – note you can call the function CreateConfigFile() in the Arduino code to write a new file from scratch. If no file exists it will use the defaults in the global declarations. 
 
 File Format:
